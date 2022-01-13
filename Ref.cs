@@ -1,4 +1,6 @@
-﻿public class Ref<T> where T : class
+﻿namespace BulkObjectReplacement;
+
+public class Ref<T> where T : class
 {
     public T Value;
 

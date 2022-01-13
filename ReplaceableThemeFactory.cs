@@ -1,4 +1,6 @@
-﻿public class ReplaceableThemeFactory
+﻿namespace BulkObjectReplacement;
+
+public class ReplaceableThemeFactory
 {
     private readonly List<WeakReference<Ref<ITheme>>> themes
         = new();

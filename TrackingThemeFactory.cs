@@ -1,5 +1,7 @@
 ﻿using System.Text;
 
+namespace BulkObjectReplacement;
+
 public class TrackingThemeFactory
 {
     private readonly List<WeakReference<ITheme>> themes = new();

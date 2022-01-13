@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using BulkObjectReplacement;
+
 var factory = new TrackingThemeFactory();
 var theme = factory.CreateTheme(true);
 var theme2 = factory.CreateTheme(false);
